@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "z:\\101\\json-20240303.jar",
+        "z:\\101\\json-simple-1.1.1.jar"
+    ]
+}
