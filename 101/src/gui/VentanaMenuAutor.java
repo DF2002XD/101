@@ -74,8 +74,15 @@ public class VentanaMenuAutor extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
-		e.getSource();
+		if (e.getSource() == btnVerDatos) {
+			app.mostrarVentanaVerDatos(nombreAutor);
+		} else if (e.getSource() == btnCambiarTituloLibro) {
+			app.mostrarVentanaCambiarTitulo(nombreAutor);
+		} else if (e.getSource() == btnBorrarAutor) {
+			app.mostrarVentanaBorrarAutor(nombreAutor);
+		} else if (e.getSource() == btnCerrarValidacion) {
+			app.cerrarSesion();
+		}
 	}
 
 }

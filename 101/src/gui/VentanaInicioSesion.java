@@ -76,8 +76,18 @@ public class VentanaInicioSesion extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
-		e.getSource();
-
+		if (e.getSource() == btnValidar) {
+			String nombreAutor = textoAutor.getText();
+			String tituloLibro = textoTitulo.getText();
+			if (!nombreAutor.isEmpty() && !tituloLibro.isEmpty()) {
+				app.iniciarValidacion(nombreAutor, tituloLibro);
+			} else {
+				javax.swing.JOptionPane.showMessageDialog(this,
+						"Por favor, ingrese el nombre del autor y el título del libro.", "Campos vacíos",
+						javax.swing.JOptionPane.WARNING_MESSAGE);
+			}
+		} else if (e.getSource() == btnCrearNuevoAutorLibro) {
+			app.mostrarVentanaCrearAutor();
+		}
 	}
 }

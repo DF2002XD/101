@@ -60,8 +60,12 @@ public class VentanaCambiarTitulo extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
-		e.getSource();
+		if (e.getSource() == btnCambiarTitulo) {
+			String nuevoTitulo = textoNuevoTitulo.getText();
+			app.cambiarTituloLibro(nombreAutor, nuevoTitulo);
+		} else if (e.getSource() == btnCancelar) {
+			dispose();
+		}
 	}
 
 }

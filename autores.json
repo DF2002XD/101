@@ -1,0 +1,20 @@
+[
+  {
+    "editorial": "Anaya",
+    "paginas": "239",
+    "titulo": "Título 1",
+    "autor": "María Fernández"
+  },
+  {
+    "editorial": "McMillan",
+    "paginas": "430",
+    "titulo": "Título 2",
+    "autor": "Elvira Nieto"
+  },
+  {
+    "editorial": "ASA",
+    "paginas": "123",
+    "titulo": "Titulo 3",
+    "nombre": "Prueba"
+  }
+]

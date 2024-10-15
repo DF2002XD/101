@@ -100,7 +100,14 @@ public class VentanaCrearAutor extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
-		e.getSource();
+		if (e.getSource() == btnCrear) {
+			String nombre = textoNombreAutor.getText();
+			String titulo = textoTituloLibro.getText();
+			String paginas = textoPaginas.getText();
+			String editorial = textoEditorial.getText();
+			app.crearAutor(nombre, titulo, paginas, editorial);
+		} else if (e.getSource() == btnCancelar) {
+			dispose();
+		}
 	}
 }

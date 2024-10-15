@@ -53,8 +53,11 @@ public class VentanaBorrarAutor extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
-		e.getSource();
+		if (e.getSource() == btnBorrar) {
+			app.borrarAutor(nombreAutor);
+		} else if (e.getSource() == btnCancelar) {
+			dispose();
+		}
 	}
 
 }
