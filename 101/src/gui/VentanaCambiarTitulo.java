@@ -60,7 +60,7 @@ public class VentanaCambiarTitulo extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO
+
 		e.getSource();
 	}
 

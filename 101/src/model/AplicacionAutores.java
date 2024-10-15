@@ -28,66 +28,66 @@ public class AplicacionAutores {
 	private VentanaBorrarAutor ventanaBorrarAutor;
 
 	private void crearFicheroJson() {
-		// TODO
+
 	}
 
 	private void guardarFicheroJson(JSONArray autores) {
-		// TODO
+
 	}
 
 	private JSONArray obtenerAutoresJson() {
-		// TODO
+
 	}
 
 	private int obtenerPosicionAutor(String nombreAutor, JSONArray autores) {
-		// TODO
+
 	}
 
 	private JSONObject obtenerAutoresJson(String nombreAutor) {
-		// TODO
+
 	}
 
 	public void ejecutar() {
-		// TODO
+
 	}
 
 	public void iniciarValidacion(String nombreAutor, String tituloLibroAutor) {
-		// TODO
+
 	}
 
 	public void cerrarSesion() {
-		// TODO
+
 	}
 
 	public void crearAutor(String nombre, String titulo, String paginas, String editorial) {
-		// TODO
+
 	}
 
 	public void cambiarTituloLibro(String nombreAutor, String nuevoTitulo) {
-		// TODO
+
 	}
 
 	public void borrarAutor(String nombreAutor) {
-		// TODO
+
 	}
 
 	public void mostrarVentanaCrearAutor() {
-		// TODO
+
 	}
 
 	public void mostrarVentanaVerDatos(String nombreAutor) {
-		// TODO
+
 	}
 
 	public void mostrarVentanaCambiarTitulo(String nombreAutor) {
-		// TODO
+
 	}
 
 	public void mostrarVentanaBorrarAutor(String nombreAutor) {
-		// TODO
+
 	}
 
 	public void mostrarMenuAutor(String nombreAutor) {
-		// TODO
+
 	}
 }

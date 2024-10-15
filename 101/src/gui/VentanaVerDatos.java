@@ -88,7 +88,7 @@ public class VentanaVerDatos extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO
+
 		e.getSource();
 	}
 }
